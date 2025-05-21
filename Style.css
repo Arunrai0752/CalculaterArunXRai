@@ -1,0 +1,106 @@
+body 
+{
+    background: radial-gradient(circle at center, #5e2ca5 0%, #2c003e 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.calculator 
+{
+    background-color: transparent;
+    border: 4px solid #ff00ff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    width: 320px; 
+}
+
+input 
+{
+    width: 290px;
+    height: 60px;
+    font-size: 1.8rem;
+    text-align: right;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 4px solid #ff00ff;
+    color: #ffffff;
+}
+
+.buttons 
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button 
+{
+    height: 60px;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    background-color: transparent;
+    color: #00ffff;
+    border: 3px solid #00ffff;
+}
+
+button:hover 
+{
+    background-color: #ffa733;
+}
+
+button:active 
+{
+    transform: scale(0.97);
+}
+
+.operator 
+{
+    color: #00ffff;
+    border: 3px solid #00ffff;
+}
+
+.operator:hover 
+{
+    background-color: #ffa733;
+}
+
+.equal 
+{
+    color: #ffff00;
+    border: 3px solid #ffcc00;
+}
+
+.equal:hover 
+{
+    background-color: #82b4d3;
+}
+
+.cancel 
+{
+    border: 3px solid #ff0000;
+    color: #ff3b30;
+}
+
+.cancel:hover 
+{
+    background-color: #ff625b;
+}
+
+.Devname
+{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
