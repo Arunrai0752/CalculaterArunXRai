@@ -3,10 +3,6 @@
 
 function input(char)
 {
-   
-  
-    
-       
         if(char === "C")
         {
             Result.value = "";
@@ -25,8 +21,6 @@ function input(char)
             Result.value =  Result.value + char
         }
 
-          
-       
 }
 
 
@@ -34,6 +28,7 @@ function deleteLast()
 {
     Result.value = Result.value.slice(0, -1);
 }
+
 
 function toggleSign() 
 {
