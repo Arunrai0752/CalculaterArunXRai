@@ -1,6 +1,9 @@
+ const Result = document.getElementById("display") 
+
+
 function input(char)
 {
-    const Result = document.getElementById("display") 
+   
   
     
        
