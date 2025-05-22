@@ -32,7 +32,8 @@ function deleteLast()
     Result.value = Result.value.slice(0, -1);
 }
 
-function toggleSign() {
+function toggleSign() 
+{
     if (Result.value.startsWith('-')) {
         Result.value = Result.value.substring(1);
     } else if (Result.value !== '') {
