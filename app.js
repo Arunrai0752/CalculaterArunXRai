@@ -1,6 +1,4 @@
  const Result = document.getElementById("display") 
-
-
 function input(char)
 {
         if(char === "C")
@@ -15,12 +13,10 @@ function input(char)
              Result.value = "Error";
              }
         }
-
         else
         {
             Result.value =  Result.value + char
         }
-
 }
 
 
@@ -29,12 +25,13 @@ function deleteLast()
     Result.value = Result.value.slice(0, -1);
 }
 
-
 function toggleSign() 
 {
-    if (Result.value.startsWith('-')) {
+    if (Result.value.startsWith('-')) 
+    {
         Result.value = Result.value.substring(1);
-    } else if (Result.value !== '') {
+    } else if (Result.value !== '') 
+    {
         Result.value = '-' + Result.value;
     }
 }
